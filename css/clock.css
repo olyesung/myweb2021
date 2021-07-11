@@ -1,0 +1,19 @@
+.clock__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock__box h2 {
+    font-size: 130px;
+    color: ivory;
+}
+
+#date-mdy {
+    font-size: 50px;
+    color: ivory;
+}
+
+.date__box {
+    padding-top: 50px;
+}
