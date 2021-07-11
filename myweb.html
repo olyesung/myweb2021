@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/import.css">
+</head>
+<body>
+    <div class="login-form__box boxes">
+        <form class="hidden" id="login-form">
+            <input 
+            class="login-form__input"
+            required
+            maxlength="15"
+            type="text" 
+            placeholder="What is your name?"
+            />
+            <input class="login-form__btn" type="submit" value="Log In"/>
+        </form>
+    </div>
+
+
+    <div class="greeting-box" >
+        <h1 id="greeting" class="hidden"></h1>
+    </div>
+
+    <div id="weather" class="weather__box">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="clock__box">
+        <h2 id="clock">00:00:00</h2>
+        <div class="date__box">
+            <span id="date-mdy">mdy</span>
+        </div>
+    </div>
+    
+    <form id="todo-form" class="todo-form__box">
+        <input type="text" placeholder="Write a To Do and Press Enter" required>
+    </form>
+
+    <div class="todo-form__boxtool">
+        <div class="todo-list__bg"></div>
+            <div class="todo-list__box">
+                <ul id="todo-list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js/background.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/greeting.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/weather.js"></script>
+</body>
+</html>

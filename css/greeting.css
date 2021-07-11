@@ -1,0 +1,35 @@
+#greeting {
+    color: cornsilk;
+    font-style:italic;
+    font-size: 30px;
+}
+
+.greeting-box, .login-form__box {
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.login-form__box, .greeting-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.login-form__input, .login-form__btn {
+    border: unset;
+    border-radius: 10px;
+}
+
+
+.login-form__input {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.login-form__btn {
+    height: 30px;
+    width: 75px;
+}
