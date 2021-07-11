@@ -12,7 +12,7 @@ function getClock() {
 function getDate() {
     const week = new Array('일', '월', '화', '수', '목', '금', '토');
     const day  = week[date.getDay()];
-    const mm = date.getMonth();
+    const mm = date.getMonth()+1;
     const dd = date.getDate();
     const yyyy = date.getFullYear();
     dateMdy.innerText = `${day}, ${mm}월 ${dd}일 ${yyyy}년`
